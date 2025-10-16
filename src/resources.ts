@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 app.get("/", (req, res) => {
     res.status(200);
-    res.send("Welcome to the authentication API");
+    res.send("Welcome to the resources API");
 });
 
 // This endpoint is needed for the admin feature 
